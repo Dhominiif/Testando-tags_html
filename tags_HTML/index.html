@@ -1,24 +1,30 @@
 <!DOCTYPE html>
  
-<html>
+<html lang="pt-br">
+
     <head>
         <meta charset="utf-8" />
         <title>Utilizando tags</title>
-        <img src="imagens/eu.jpg" width="104" height="128">
-        <nav>
-            <a href="SobreAutor.html">Sobre o autor<a/>
-        </nav>
+        <style>
+            div{
+                text-align: center;
+            }
+        </style>
     </head>
 
-    <hr/> <!-- Usei a tag para separar o cabeçalho do body (apenas para ficar claro cada parte da página) -->
-    <!-- como não estamos usando css, coloquei o "<br> para separar o cabeçalho do body"-->
-    <br>
-
     <body>
+        <nav>
+            <a href="SobreAutor.html">  Sobre o autor </a>
+        </nav>
+        <hr/> <!-- Usei a tag para separar o cabeçalho do body (apenas para ficar claro cada parte da página) -->
+        <!-- como não estamos usando css, coloquei o "<br> para separar o cabeçalho do body"-->
+        <br>
+
         <!-- Fazendo o primeiro parágrafo -->
-        <div align="center">
+        <div id="div1">
             <h1>Primeira página em HTML</h1>
         </div>
+
         <p>
             Olá, esse é não é a minha primeira página em HTML, porém é a primeira para L2, disciplina ministrada pelo professor Breno. Mandaria meu lindo projeto, uma página sobre a banda Imagine Dragons, porém o perdi :(
         </p>
@@ -30,20 +36,16 @@
         <li>C++</li>
         </ol>
 
-        <p>lista não ordenada (Conhecidos):</p>
+        <p>lista não ordenada (Amigos):</p>
         <ul>
         <li>Roberto</li>
         <li>Gustavo velho (o novo é o do maranhão)</li>
         <li>Joedson</li>
         </ul>
 
-    </body>
-
-    <!-- como não estamos usando css, coloquei o "<br> para separar o rodapé do body"-->
-    <br>
-    <hr/> <!-- Usei a tag para separar o rodapé do body (apenas para ficar claro cada parte da página) -->
-
-    <footer>
+        <!-- como não estamos usando css, coloquei o "<br> para separar o rodapé do body"-->
+        <br>
+        <hr/> <!-- Usei a tag para separar o rodapé do body (apenas para ficar claro cada parte da página) -->
         <p>
             PATROCINADORES: 
             <br>
@@ -54,7 +56,9 @@
             <br>
             <a href="https://www.instagram.com/emanuelfwck/" target="_blank">@emanuelfwck</a>
             <br>
-            <a href="https://www.instagram.com/eubrenoleonardo/"" target="_blank">@eubrenoleonardo</a>
-            </p>
-    </footer>
+            <a href="https://www.instagram.com/eubrenoleonardo/" target="_blank">@eubrenoleonardo</a>
+        </p>
+    
+    </body>
+
 </html>
